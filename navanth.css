@@ -1,0 +1,60 @@
+.background{
+        background-image:url(./birthday.png);
+        background-position:center;
+        background-size:cover;
+        height:100vh;
+        width:cover;       
+}
+.thread{
+    background-color:rgb(83, 64, 100);
+    height:6vh;
+    width:5px;
+    margin-left:136px;
+}
+.card {
+    background-color:#f5e795; /* Change background color to gold */
+    height: 80px; /* Increase height for better visual appeal */
+    width: 230px; /* Increase width for a more spacious look */
+    font-family: 'Arial', sans-serif; /* Choose a more widely supported font */
+    font-weight: bold; /* Increase font weight for better readability */
+    margin-left: 10px; /* Center the card horizontally */
+    text-align: center;
+    padding: 20px; /* Adjust padding for better content placement */
+    font-size: larger;
+    color: #4A90E2; /* Set text color to a pleasant blue */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    border-radius: 10px; /* Add rounded corners for a softer look */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Add hover effect for interactivity */
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .navanth{
+    height:100px;
+    width:150px;
+    background-image:url(./navanth_kriti.jpg);
+    background-size:cover;
+    margin-top:210px;
+    margin-left:482px;
+    border:3px solid olive;
+  }
+  .navanth:hover{
+    transform:scale(2);
+    transition: transform 0.2s ease-in-out;
+  }
+  /*.kriti{
+    height:100px;
+    width:150px;
+    background-image:url(./kriti.jpg);
+    background-size:cover;
+    margin-top:3px;
+    margin-left:478px;
+    border:3px solid gold;
+  }
+  .kriti:hover{
+    transform:scale(2);
+    transition: transform 0.2s ease-in-out;
+  }*/
+  
